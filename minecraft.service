@@ -4,4 +4,4 @@ After=Default.target
 [Service]
 Type=simple
 User=ec2-user
-ExecStart=/usr/bin/java -jar /minecraft/forge-1.12.2-14.23.5.2859-installer.jar
+ExecStart=/usr/bin/java -jar /minecraft/forge-1.12.2-14.23.5.2859-universal.jar
