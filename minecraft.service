@@ -1,7 +1,0 @@
-[Unit]
-Description=Minecraft Service
-After=Default.target
-[Service]
-Type=simple
-User=ec2-user
-ExecStart=/usr/bin/java -Xmx2G -Xms2G -jar /home/ec2-user/minecraft/forge-1.12.2-14.23.5.2859.jar nogui
